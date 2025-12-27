@@ -1,0 +1,20 @@
+System.out.println("/|\\ /|\\ /|\\ /|\\ /|\\ /|\\");
+System.out.println("\nSample output 2\n");
+System.out.println("Testing adding photos to albums");
+Album album = new Album("My album");
+System.out.println("Is album empty before adding photos? " + album.isEmpty());
+Photo photo1 = new Photo("Sunset", "abc123");
+Photo photo2 = new Photo("Sunrise", "def456");
+Photo photo1Copy = new Photo("Same sunset", "abc123");
+Photo unusedPhoto = new Photo("Can of beans", "ghi789");
+album.addPhoto(photo1);
+album.addPhoto(photo2);
+album.addPhoto(photo1Copy);
+System.out.println("Is album empty after adding photos? " + album.isEmpty());
+System.out.println("Photo count in " + album.getAlbumName() + ": " + album.getCount());
+System.out.println("Is photo1 in album? " + album.hasPhoto(photo1));
+System.out.println("Is photo2 in album? " + album.hasPhoto(photo2));
+// Note that line below is true because photo1 and photo1Copy have the same photoDigest
+System.out.println("Is photo1Copy in album? " + album.hasPhoto(photo1Copy));
+System.out.println("Is unusedPhoto in album? " + album.hasPhoto(unusedPhoto));
+System.out.println("\n\\|/ \\|/ \\|/ \\|/ \\|/ \\|/");

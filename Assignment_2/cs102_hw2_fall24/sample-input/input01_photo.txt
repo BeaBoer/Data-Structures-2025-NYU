@@ -1,0 +1,12 @@
+System.out.println("/|\\ /|\\ /|\\ /|\\ /|\\ /|\\");
+System.out.println("\nSample output 1\n");
+System.out.println("Testing Photo class");
+Photo photo1 = new Photo("Sunset", "abc123");
+Photo photo2 = new Photo("Sunrise", "def456");
+photo1.viewPhoto();
+System.out.println("Has photo1 been viewed? " + photo1.isViewed());
+System.out.println("Has photo2 been viewed? " + photo2.isViewed());
+System.out.println("Are photo1 and photo2 equal? " + photo1.equals(photo2));
+Photo photo3 = new Photo("Same sunset photo", "abc123");
+System.out.println("Are photo1 and photo3 equal? " + photo1.equals(photo3));
+System.out.println("\n\\|/ \\|/ \\|/ \\|/ \\|/ \\|/");

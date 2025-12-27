@@ -1,0 +1,28 @@
+/|\ /|\ /|\ /|\ /|\ /|\
+
+Sample output 3
+
+Testing viewing albums
+Try to view next or previous photo in album before open:
+Tried to view next photo, but album is closed.
+Tried to view previous photo, but album is closed.
+Album My Cool Album opened.
+Now viewing Sunset.
+Cycling forward through photos:
+Now viewing Sunrise.
+Have all photos been viewed before viewing Can of Beans? false
+Now viewing Can of Beans.
+Have all photos been viewed after viewing Can of Beans? true
+Now viewing Sunset.
+Cycling backwards through photos:
+Now viewing Can of Beans.
+Now viewing Sunrise.
+Now viewing Sunset.
+Now viewing Can of Beans.
+Album My Cool Album closed.
+Try to view next photo in album after close:
+Tried to view next photo, but album is closed.
+Album My Cool Album opened.
+Now viewing Can of Beans.
+
+\|/ \|/ \|/ \|/ \|/ \|/

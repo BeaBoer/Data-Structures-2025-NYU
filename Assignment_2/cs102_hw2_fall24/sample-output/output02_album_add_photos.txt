@@ -1,0 +1,15 @@
+/|\ /|\ /|\ /|\ /|\ /|\
+
+Sample output 2
+
+Testing adding photos to albums
+Is album empty before adding photos? true
+Attempted to add duplicate photo.
+Is album empty after adding photos? false
+Photo count in My album: 2
+Is photo1 in album? true
+Is photo2 in album? true
+Is photo1Copy in album? true
+Is unusedPhoto in album? false
+
+\|/ \|/ \|/ \|/ \|/ \|/

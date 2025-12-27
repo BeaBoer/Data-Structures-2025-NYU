@@ -1,0 +1,29 @@
+/|\ /|\ /|\ /|\ /|\ /|\
+
+Sample output 6
+
+Testing edge cases
+
+Deleting current photo should make next photo current:
+Album My Cool Album opened.
+Now viewing Sunset.
+Now viewing Sunrise.
+Album My Cool Album closed.
+Album My Cool Album opened.
+Now viewing Can of Beans.
+Album My Cool Album closed.
+Album My Cool Album opened.
+Now viewing Sunset.
+Album My Cool Album closed.
+
+Album with no photos should be considered viewed:
+Is album empty? true
+Are all photos in album viewed? true
+
+Album that is viewed should become unviewed once new photo is added:
+Album My Cool Album opened.
+Now viewing Shredding the Gnar.
+Are all photos in album viewed? true
+Are all photos in album viewed? false
+
+\|/ \|/ \|/ \|/ \|/ \|/

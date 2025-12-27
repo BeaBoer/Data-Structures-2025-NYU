@@ -1,0 +1,18 @@
+/|\ /|\ /|\ /|\ /|\ /|\
+
+Sample output 5
+
+Testing album equality
+Two empty albums are equal:
+Are Album1 and Album2 equal? true
+Two albums with same photos in same order are equal:
+Are Album1 and Album2 equal? true
+Two albums with same photos in different order are equal:
+Are Album1 and Album3 equal? true
+Two albums with different numbers of photos are not equal:
+Are Album1 and Album3 equal? false
+Are Album3 and Album1 equal? false
+Two albums with different photos are not equal:
+Are Album1 and Album2 equal? false
+
+\|/ \|/ \|/ \|/ \|/ \|/

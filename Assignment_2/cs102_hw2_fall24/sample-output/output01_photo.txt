@@ -1,0 +1,12 @@
+/|\ /|\ /|\ /|\ /|\ /|\
+
+Sample output 1
+
+Testing Photo class
+Now viewing Sunset.
+Has photo1 been viewed? true
+Has photo2 been viewed? false
+Are photo1 and photo2 equal? false
+Are photo1 and photo3 equal? true
+
+\|/ \|/ \|/ \|/ \|/ \|/

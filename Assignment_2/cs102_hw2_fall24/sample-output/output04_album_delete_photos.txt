@@ -1,0 +1,21 @@
+/|\ /|\ /|\ /|\ /|\ /|\
+
+Sample output 4
+
+Testing deleting from albums
+Album photo count after adding photos: 3
+Attempted to delete a photo that is not in the album.
+Album photo count after deleting photo2: 2
+Is photo2 in album? false
+Album photo count after deleting photo1: 1
+Is photo1 in album? false
+Opening to album to see if photos still cycle correctly:
+Album My Cool Album opened.
+Now viewing Can of Beans.
+Now viewing Can of Beans.
+Now viewing Can of Beans.
+Album photo count after deleting photo3: 0
+Is photo3 in album? false
+Tried to view next photo, but album has no photos.
+
+\|/ \|/ \|/ \|/ \|/ \|/
